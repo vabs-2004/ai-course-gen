@@ -1,6 +1,5 @@
-# AI Course Generator
+#AI-CADEMY
 
-Welcome to the AI Course Generator repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML. By inputting key parameters such as Course Name, Course Difficulty Level, Course Hours, Adding Youtube Videos , users receive a dynamically generated course outline. Proceeding with the outline, generates the study content.
 
 ## Table of Contents
 
@@ -8,13 +7,10 @@ Welcome to the AI Course Generator repository! This project aims to create a pla
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
+Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML. By inputting key parameters such as Course Name, Course Difficulty Level, Course Hours, Adding Youtube Videos , users receive a dynamically generated course outline. Proceeding with the outline, generates the study content.
 
-AI Course Generator is a web-based application that helps users create AI courses by dynamically generating content based on user preferences. This project leverages Generative AI and modern web technologies to provide a seamless and interactive experience.
 
 ## Features
 
