@@ -1,6 +1,6 @@
 # AI Course Generator
 
-Welcome to the AI Course Generator repository! This project aims to create a platform that generates AI courses dynamically. The primary languages used in this project are JavaScript, CSS, and HTML.
+Welcome to the AI Course Generator repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML.
 
 ## Table of Contents
 
@@ -14,14 +14,13 @@ Welcome to the AI Course Generator repository! This project aims to create a pla
 
 ## Introduction
 
-AI Course Generator is a web-based application that helps users create AI courses by dynamically generating content based on user preferences. This project leverages modern web technologies to provide a seamless and interactive experience.
+AI Course Generator is a web-based application that helps users create AI courses by dynamically generating content based on user preferences. This project leverages Generative AI and modern web technologies to provide a seamless and interactive experience.
 
 ## Features
 
 - **Dynamic Course Generation**: Create AI courses tailored to specific needs.
 - **User-Friendly Interface**: Easy-to-use and intuitive interface.
 - **Responsive Design**: Accessible on various devices and screen sizes.
-- **Customizable Content**: Add, edit, and remove course content as needed.
 
 ## Installation
 
