@@ -5,14 +5,13 @@
 
 - [Introduction](#introduction)
 - [Current Features](#features)
-- [Dependencies](#depend)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
   
 
 ## Introduction
-Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML. By inputting key parameters such as Course Name, Course Difficulty Level, Course Hours, Adding Youtube Videos , users receive a dynamically generated course outline. Proceeding with the outline, generates the study content.
-
+Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are J...
 
 ## Current Features
 
@@ -21,7 +20,7 @@ Welcome to the AI-CADEMY repository! This project aims to create a platform for 
 - **Responsive Design**: Accessible on various devices and screen sizes.
 - **Youtube Videos**: (Optional)Accessible on various devices and screen sizes.
 
-##Dependencies
+## Dependencies
     @clerk/clerk-react: ^5.25.5
     @clerk/react-router: ^1.1.11
     @google/generative-ai: ^0.24.0
