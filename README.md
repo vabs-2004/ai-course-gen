@@ -96,7 +96,7 @@ npm start dev
 
     👨‍💻 Ansh Dhingra
 
-***Future Plans***
+##Future Plans
 
     💬 Live Q&A with AI: Real-time question and answer sessions with AI.
 
