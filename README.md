@@ -38,6 +38,15 @@ To get started with the AI Course Generator, follow these steps:
     ```bash
     npm install
     ```
+4. Create a `.env` file in the root directory and add the following environment variables:
+    ```plaintext
+    VITE_CLERK_PUBLISHABLE_KEY=<Your Clerk Publishable Key>
+    CLERK_SECRET_KEY=<Your Clerk Secret Key>
+    VITE_GEMINI_API_KEY=<Your Gemini API Key>
+    VITE_PUBLIC_DB_CONNECTION_STRING=<Your PostgreSQL Drizzle Connection String>
+    VITE_FIREBASE_KEY=<Your Firebase Key>
+    VITE_YOUTUBE_KEY=<Your YouTube API Key>
+    ```
 
 ## Usage
 
