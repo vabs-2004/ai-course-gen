@@ -4,14 +4,16 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Current Features](#features)
+- [Current Features](#current-features)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Team Members](#team-members)
+- [Future Plans](#future-plans)
   
 
 ## Introduction
-Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are J...
+Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML.
 
 ## Current Features
 
@@ -82,3 +84,21 @@ After installing the dependencies, you can start the development server using th
 
 ```bash
 npm start dev
+
+## Team Members
+
+    Vaibhav Singh
+    Vansh Bindal
+    Aman
+    Ansh Dhingra
+
+##Future Plans
+
+    Include live Q&A with AI: Enable real-time question and answer sessions with AI.
+    Save course content into notes: Allow users to save course content as notes for future reference.
+    Multi-lingual support: Provide support for multiple languages to cater to a global audience.
+    Quizzes feature: Add quizzes to help users test their knowledge and understanding.
+
+
+
+
