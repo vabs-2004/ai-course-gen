@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Current Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 
@@ -12,11 +12,12 @@
 Welcome to the AI-CADEMY repository! This project aims to create a platform for learners so that they can generate their study material through AI. The primary languages used in this project are JavaScript, CSS, and HTML. By inputting key parameters such as Course Name, Course Difficulty Level, Course Hours, Adding Youtube Videos , users receive a dynamically generated course outline. Proceeding with the outline, generates the study content.
 
 
-## Features
+## Current Features
 
 - **Dynamic Course Generation**: Create AI courses tailored to specific needs.
 - **User-Friendly Interface**: Easy-to-use and intuitive interface.
 - **Responsive Design**: Accessible on various devices and screen sizes.
+- **Youtube Videos**: (Optional)Accessible on various devices and screen sizes.
 
 ## Installation
 
