@@ -46,6 +46,7 @@ tailwind-merge: ^3.0.2
 tailwindcss: ^4.0.17  
 tw-animate-css: ^1.2.5  
 uuid: ^11.1.0  
+```
 
 ## Installation
 
@@ -79,20 +80,27 @@ After installing the dependencies, you can start the development server using th
 
 ```bash
 npm start dev
+```
 
 ## Team Members
 
-    Vaibhav Singh
-    Vansh Bindal
-    Aman
-    Ansh Dhingra
+    👨‍💻 Vaibhav Singh
 
-##Future Plans
+    👨‍💻 Vansh Bindal
 
-    Include live Q&A with AI: Enable real-time question and answer sessions with AI.
-    Save course content into notes: Allow users to save course content as notes for future reference.
-    Multi-lingual support: Provide support for multiple languages to cater to a global audience.
-    Quizzes feature: Add quizzes to help users test their knowledge and understanding.
+    👨‍💻 Aman
+
+    👨‍💻 Ansh Dhingra
+
+**##Future Plans**
+
+    💬 Live Q&A with AI: Real-time question and answer sessions with AI.
+
+    📝 Save Notes: Let users save generated content for future reference.
+
+    🌍 Multi-lingual Support: Make the platform accessible to non-English speakers.
+
+    ❓ Quizzes & Assessments: Add tests to help users review and retain content.
 
 
 
