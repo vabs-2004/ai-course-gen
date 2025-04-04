@@ -4,7 +4,11 @@
 - [Introduction](#introduction)
 - [Current Features](#current-features)
 - [Dependencies](#dependencies)
-- [Installation, Usage & More](#installation-usage--more)
+- [Installation]
+- [Usage](#usage)
+- [Team Members](#team-members)
+- [Future Plans](#future-plans)
+
 
 ## Introduction
 Welcome to the **AI-CADEMY** repository!  
