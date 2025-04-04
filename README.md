@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Current Features](#current-features)
 - [Dependencies](#dependencies)
-- [Installation]
+- [Installation](#installation)
 - [Usage](#usage)
 - [Team Members](#team-members)
 - [Future Plans](#future-plans)
