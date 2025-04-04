@@ -1,5 +1,7 @@
 <div align="center"><strong><h1>AI-CADEMY</h1></strong></div>
 
+Demo Link : https://veed.io/view/97ebbf8d-6211-4636-ad56-ac1ab7e8d8ee
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Current Features](#current-features)
