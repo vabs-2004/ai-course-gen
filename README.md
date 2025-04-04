@@ -50,4 +50,4 @@ To get started with the AI Course Generator, follow these steps:
 After installing the dependencies, you can start the development server using the following command:
 
 ```bash
-npm start
+npm start dev
