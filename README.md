@@ -1,4 +1,4 @@
-##AI-CADEMY
+## <div align="center"><strong>AI-CADEMY</strong></div>
 
 
 ## Table of Contents
