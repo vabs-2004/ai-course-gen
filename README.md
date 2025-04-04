@@ -14,7 +14,7 @@ Demo Link : https://veed.io/view/97ebbf8d-6211-4636-ad56-ac1ab7e8d8ee
 
 ## Introduction
 Welcome to the **AI-CADEMY** repository!  
-This project creates a platform for learners to **generate their own study material using AI**.  
+This project creates a platform for learners to **generate their own study material using AI**. By inputting key parameters like Topic Name, Topic Difficulty Level, Topic Study Content based on Duration, users receive their dynamically generated study videos along with youtube videos for each topic.  
 The primary technologies used include **JavaScript**, **CSS**, **HTML**, and **React**.
 
 ## Current Features
