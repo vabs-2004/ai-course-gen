@@ -22,15 +22,11 @@ function Finish() {
     }
 
     try {
-      const result = await db
-        .select()
-        .from(CourseList)
-        .where(
-          and(
-            eq(CourseList.courseId, id),
-            eq(CourseList.createdBy, user.primaryEmailAddress.emailAddress)
-          )
-        );
+      const query = `
+        SELECT * FROM "courseList"
+        WHERE "courseId" = '${id}' AND "createdBy" = '${user.primaryEmailAddress.emailAddress}'
+      `;
+      const result = await db.query(query);
       console.log(result);
       setCourse(result[0]);
       console.log(course);

@@ -12,7 +12,11 @@ function Explore() {
   },[])
 
   const GetAllCourses = async() => {
-    const result = await db.select().from(CourseList).limit(9).offset(0);
+    const query = `
+            SELECT * FROM "courseList"
+            LIMIT 9 OFFSET 0
+        `;
+        const result = await db.query(query);
     setCourseList(result);
   }
 

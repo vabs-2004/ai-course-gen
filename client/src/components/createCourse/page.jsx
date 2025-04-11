@@ -56,23 +56,33 @@ function CreateCourse() {
         SaveCourseLayoutInDb(JSON.parse(result.response.text()));
     }
 
-    const SaveCourseLayoutInDb= async(courseLayout) =>{
+    const SaveCourseLayoutInDb = async (courseLayout) => {
         var id = uuidv4();
         setLoading(true);
-        const result  = await db.insert(CourseList).values({
-            courseId:id,
-            name:userCourseInput.topic,
-            level:userCourseInput.level,
-            description:userCourseInput.description,
-            courseOutput:courseLayout,
-            createdBy:user.primaryEmailAddress.emailAddress,
-            userName:user.fullName,
-            userProfileImage:user.imageUrl
-        })
-        console.log("Finish");
-        setLoading(false);
-        navigate(`/create-course/${id}`); //Dynamic Route
-    }
+    
+        const escapedCourseOutput = JSON.stringify(courseLayout).replace(/'/g, "''"); // Escape single quotes
+        const query = `
+            INSERT INTO "courseList" (
+                "courseId", "name", "level", "description", "courseOutput", "createdBy", "userName", "userProfileImage"
+            ) VALUES (
+                '${id}', '${userCourseInput.topic}', '${userCourseInput.level}', '${userCourseInput.description}',
+                '${escapedCourseOutput}', '${user.primaryEmailAddress.emailAddress}', '${user.fullName}', '${user.imageUrl}'
+            )
+        `;
+        console.log("Insert Query:", query); // Log the query
+        console.log("Course Layout:", courseLayout); // Log the course layout
+    
+        try {
+            const result = await db.query(query);
+            console.log("Insert Result:", result);
+            console.log("Finish");
+            setLoading(false);
+            navigate(`/create-course/${id}`); // Dynamic Route
+        } catch (error) {
+            console.error("Error inserting course layout:", error);
+            setLoading(false);
+        }
+    };
 
   return (
     <div> 

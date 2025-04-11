@@ -10,7 +10,12 @@ import { useNavigate } from 'react-router-dom'
 function CourseCard({course,refreshData,displayUser=false}) {
     const navigate = useNavigate();
     const handleOnDelete = async() => {
-        const resp = await db.delete(CourseList).where(eq(CourseList.id,course.id)).returning({id:CourseList.id});
+        const query = `
+            DELETE FROM "courseList"
+            WHERE "id" = ${course.id}
+            RETURNING "id"
+        `;
+        const resp = await db.query(query);
         if(resp){
             refreshData()
         }

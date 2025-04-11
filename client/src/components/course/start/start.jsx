@@ -18,7 +18,11 @@ function CourseStudy() {
     },[courseId]);
 
     const GetCourse=async()=>{
-        const result = await db.select().from(CourseList).where(eq(CourseList.courseId,courseId));
+      const query = `
+      SELECT * FROM "courseList"
+      WHERE "courseId" = '${courseId}'
+  `;
+  const result = await db.query(query);
         setCourse(result[0]);
         const firstChapter=result[0].courseOutput.Chapters[0];
         if(firstChapter){
@@ -28,7 +32,11 @@ function CourseStudy() {
     }
 
     const GetSelectedChapterContent=async(chapterId)=>{
-      const result = await db.select().from(Chapters).where(and(eq(Chapters.chapterId,chapterId),eq(Chapters.courseId,courseId)));
+      const query = `
+                SELECT * FROM "chapters"
+                WHERE "chapterId" = ${chapterId} AND "courseId" = '${courseId}'
+            `;
+            const result = await db.query(query);
       setChapterContent(result[0]);
       console.log(result);
 

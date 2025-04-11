@@ -17,7 +17,11 @@ function CourseId() {
     const GetCourse = async () => {
 
         try{
-            const result = await db.select().from(CourseList).where(eq(CourseList.courseId,courseId))
+            const query = `
+                SELECT * FROM "courseList"
+                WHERE "courseId" = '${courseId}'
+            `;
+            const result = await db.query(query);
             setCourse(result[0]);
             console.log(result);
         }catch(error){

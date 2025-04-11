@@ -14,8 +14,11 @@ function UserCourseList() {
     user && getUserCourse();
   },[user]);
   const getUserCourse = async() => {
-    const result = await db.select().from(CourseList)
-    .where(eq(CourseList.createdBy, user.primaryEmailAddress.emailAddress));
+    const query = `
+            SELECT * FROM "courseList"
+            WHERE "createdBy" = '${user.primaryEmailAddress.emailAddress}'
+        `;
+        const result = await db.query(query);
     console.log(result);
     setCourseList(result);
   }

@@ -27,9 +27,12 @@ function CourseBasicInfo({ course,edit=true }) {
         }).then(resp=>{
             getDownloadURL(storageReference).then(async(downloadUrl)=>{
                 console.log(downloadUrl);
-                await db.update(CourseList).set({
-                    courseBanner:downloadUrl
-                }).where(eq(CourseList.id,course.id))
+                const updateQuery = `
+                UPDATE "courseList"
+                SET "courseBanner" = '${downloadUrl}'
+                WHERE "id" = '${course.id}'
+            `;
+            await db.query(updateQuery);
             })
         })
     }
