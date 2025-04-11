@@ -94,9 +94,6 @@ npm start dev
 
     👨‍💻 Vansh Bindal
 
-    👨‍💻 Aman
-
-    👨‍💻 Ansh Dhingra
 
 ### Future Plans
 
